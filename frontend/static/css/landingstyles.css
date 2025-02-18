@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/* -------------------------------------------------------------------------------------- */
+
+.navbar {
+    background-color: #6ba8e3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+/* -------------------------------------------------------------------------------------- */
+.navbar h1 {
+    font-size: 40px;
+    color: black;
+}
+/* -------------------------------------------------------------------------------------- */
+.sign-in {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* -------------------------------------------------------------------------------------- */
+.sign-in:hover {
+    background-color: darkgray;
+}
+/* -------------------------------------------------------------------------------------- */
+
+.welcome {
+    text-align: center;
+    margin: 80px 0; 
+}
+/* -------------------------------------------------------------------------------------- */
+.welcome h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+/* -------------------------------------------------------------------------------------- */
+.welcome p {
+    font-size: 20px;
+    margin-top: 5px;
+}
+/* -------------------------------------------------------------------------------------- */
+
+.containers {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* space between features */
+    margin: 60px 0; 
+}
+/* -------------------------------------------------------------------------------------- */
+.feature {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* -------------------------------------------------------------------------------------- */
+
+.image-placeholder {
+    width: 200px;
+    height: 120px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+    border: 1px solid black;
+    margin-bottom: 10px; 
+}
+/* -------------------------------------------------------------------------------------- */
+
+.image-placeholder img {
+    width: 80px; 
+    height: auto;
+}
+/* -------------------------------------------------------------------------------------- */
+
+.feature-text {
+    font-size: 16px;
+}
+/* -------------------------------------------------------------------------------------- */
+
+.create-acc {
+    text-align: center;
+    margin-top: 80px; 
+}
+/* -------------------------------------------------------------------------------------- */
+
+.create-account {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+}
+/* -------------------------------------------------------------------------------------- */
+.create-account:hover {
+    background-color: darkgray;
+}
