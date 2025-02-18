@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* -------------------------------------------------------------------------------------- */
+.navbar {
+    background-color: #008cd1;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    padding-bottom: 5px;
+}
+
+.navbar h1 {
+    font-size: 40px;
+    color: black;
+    margin-right: 20px;
+}
+
+.logo {
+    height: 90px;
+    width: auto;;
+    
+}
+
+.back-btn {
+    background-color: #002a29;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: auto;
+}
+
+.back-btn:hover {
+    background-color: darkgrey;
+    color: black;
+}
+
+/* -------------------------------------------------------------------------------------- */
+.signin-container {
+    text-align: center;
+    margin: 80px auto;
+    width: 50%;
+}
+
+.signin-container h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.instruction {
+    font-size: 20px;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+
+/* -------------------------------------------------------------------------------------- */
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.signin-form label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.signin-form input {
+    width: 250px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+/* -------------------------------------------------------------------------------------- */
+.signin-btn {
+    background-color: #002a29;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 24px;
+    margin-top: 70px;
+}
+
+.signin-btn:hover {
+    background-color: darkgray;
+    color: black;
+}
